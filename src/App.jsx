@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
-import DisplayEntries from './Components/DisplayEntries/DisplayEntries'
+import DisplayEntries from './Components/DisplayEntries/DisplayEntries';
+import AddEntryForm from './Components/DisplayEntries/AddEntry/AddEntryForm';
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
   return (
     <div>
       <DisplayEntries parentEntries={entries} />
+      <AddEntryForm />
     </div>
   );
 }
